@@ -1,282 +1,118 @@
+<div align="center">
 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=ICC%20World%20Cup%202023&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Exploratory%20Data%20Analysis%20•%20Sports%20Analytics%20•%20Team%20India&descAlignY=55&descAlign=50" alt="World Cup EDA Header" />
 
+  <br />
 
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+    <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />
+    <img src="https://img.shields.io/badge/Seaborn-Statistical_Viz-4C8CBF?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
+  </p>
 
-This repository presents **Exploratory Data Analysis (EDA)** of the ICC Cricket World Cup 2023, with a special focus on **Team India’s performance**.  
+  <h3>🏏 Unveiling the Numbers Behind the Glory</h3>
+  
+  <p align="center">
+    <i>"A deep dive into the 2023 Cricket World Cup statistics, with a special analytical focus on Team India's dominant campaign."</i>
+  </p>
+</div>
+
 ---
+
 ## 📌 Project Snapshot
-![Full Dashboard](images/00_all_visuals_collage.png)
 
-*A single snapshot of all 14 visualizations — presenting the complete analytical story of the 2023 World Cup.*
+This repository presents a comprehensive **Exploratory Data Analysis (EDA)** of the ICC Cricket World Cup 2023. By leveraging Python's data stack, we uncover patterns in toss decisions, run rates, venue advantages, and individual brilliance.
 
----
-
-## 📊 Visual Insights
-
-### Average Runs per Team
-![Average Runs per Team](images/01_avg_runs_per_team.png)  
-**Insight:** Teams with higher averages show stronger batting depth; **India ranks top** — indicates consistent top-order performance.
+<div align="center">
+  <img src="images/00_all_visuals_collage.png" alt="Full Dashboard Collage" width="800" style="border-radius: 10px; border: 2px solid #ddd;" />
+  <p><i>A complete analytical story of the tournament in a single snapshot.</i></p>
+</div>
 
 ---
 
-### Score Distribution by Team
-![Score Distribution](images/02_score_distribution.png)  
-**Insight:** South Africa & India show **higher medians and long tails** — capable of explosive big totals.
+## 📊 Visual Insights & Analysis
+
+### 1. Batting & Score Analysis
+
+| Metric | Visualization | Key Insight |
+| :--- | :--- | :--- |
+| **Avg Runs** | ![Avg Runs](images/01_avg_runs_per_team.png) | 💡 **India ranks top**, indicating superior batting depth and consistent top-order performance. |
+| **Distribution** | ![Distribution](images/02_score_distribution.png) | 💡 **South Africa & India** show higher medians and long tails, proving capability for explosive totals. |
+| **Innings Stack** | ![Stacked](images/03_total_runs_stacked.png) | 💡 Median runs are consistent across innings; matches went deep, highlighting competitive balance. |
 
 ---
 
-### Total Runs Stacked by Innings
-![Total Runs Stacked](images/03_total_runs_stacked.png)  
-**Insight:** Median runs are consistent across innings — matches often went deep; bowling performances were variable.
+### 2. Match Strategy & Outcomes
+
+| Metric | Visualization | Key Insight |
+| :--- | :--- | :--- |
+| **Toss vs Result** | ![Toss Decision](images/04_toss_decision.png) | 💡 Toss isn't decisive. **India wins regardless** of the coin flip, showing immense adaptability. |
+| **Toss Winner** | ![Toss Winner](images/05_toss_vs_match_winner.png) | 💡 Winning the toss **does not guarantee** match wins. Execution > Conditions. |
+| **Victory Margin** | ![Margin](images/06_margin_type.png) | 💡 India secures high **run-margin wins**, demonstrating dominance when defending totals. |
 
 ---
 
-### Toss Decision vs Match Outcome
-![Toss Decision](images/04_toss_decision.png)  
-**Insight:** Toss decision isn’t decisive; **India often wins regardless** — adaptability is a key strength.
+### 3. Pace & Stability
+
+| Metric | Visualization | Key Insight |
+| :--- | :--- | :--- |
+| **Runrate** | ![Runrate](images/07_runrate_distribution.png) | 💡 Teams chasing show late acceleration; India displays **controlled acceleration** throughout. |
+| **Overs Faced** | ![Overs](images/08_avg_overs.png) | 💡 **India & New Zealand** consistently bat full overs, highlighting batting stability and few collapses. |
+| **Win Count** | ![Wins](images/09_matches_won.png) | 💡 **India leads** in total matches won, proving to be the most consistent team of the tournament. |
 
 ---
 
-### Toss Winner vs Match Winner
-![Toss vs Winner](images/05_toss_vs_match_winner.png)  
-**Insight:** Winning the toss does **not guarantee match wins** — execution matters more than the toss.
+### 4. Team India Special Focus 🇮🇳
+
+| Metric | Visualization | Key Insight |
+| :--- | :--- | :--- |
+| **Trend Analysis** | ![India Trends](images/10_india_trends.png) | 💡 India frequently sits **above tournament averages**, outperforming peers in runs and efficiency. |
+| **Correlation** | ![Runs vs RR](images/11_runs_vs_runrate.png) | 💡 Strong correlation: **Higher Runrates → Higher Totals**. India excels in balancing strike rotation with boundaries. |
+| **Top Scorers** | ![Top Scores](images/12_top_scores.png) | 💡 **India & South Africa** dominate individual scores; star players carry momentum deep into innings. |
 
 ---
 
-### Margin of Victory Type
-![Margin Type](images/06_margin_type.png)  
-**Insight:** India has higher **run-margin wins**, showing dominance while defending totals.
+### 5. Venue & Tournament Trends
+
+| Metric | Visualization | Key Insight |
+| :--- | :--- | :--- |
+| **Stadium Stats** | ![Stadiums](images/13_results_by_Stadium.png) | 💡 India shows **adaptability across venues**, proving they are not reliant on specific pitch conditions. |
+| **Champions** | ![Winners](images/14_winning_teams_distribution.png) | 💡 India dominates the winners circle — statistically the tournament’s most **clutch team**. |
 
 ---
 
-### Runrate Distribution
-![Runrate Distribution](images/07_runrate_distribution.png)  
-**Insight:** Teams chasing often show late acceleration; India’s **controlled acceleration** is evident.
+## 🚀 Strategic Takeaways for India
+
+* **Total Dominance:** India excelled in both **batting first and chasing** scenarios.
+* **Adaptability:** The team showed a clear edge regardless of toss decisions or venues.
+* **The Formula:** A mix of **boundary hitting + taking controlled wickets** was the blueprint.
+* **Efficiency:** Control over extras and mid-over acceleration were critical differentiators.
 
 ---
 
-### Average Overs Faced per Team
-![Average Overs](images/08_avg_overs.png)  
-**Insight:** India & New Zealand consistently **bat full overs** — highlights batting stability.
+## 🛠 Technology Stack
+
+| Category | Tools Used |
+| :--- | :--- |
+| **Language** | ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) |
+| **Data Manipulation** | `Pandas`, `NumPy` |
+| **Visualization** | `Matplotlib`, `Seaborn` |
+| **Data Source** | Kaggle Datasets |
 
 ---
 
-### Matches Won by Teams
-![Matches Won](images/09_matches_won.png)  
-**Insight:** India leads in total matches won — the most consistent team throughout the tournament.
+## ⚙️ How to Run
 
+```bash
+# Clone the repository
+git clone [https://github.com/Syed-Waheed/ICC-World-Cup-EDA.git](https://github.com/Syed-Waheed/ICC-World-Cup-EDA.git)
+
+# Install dependencies
+pip install pandas matplotlib seaborn
+
+# Run the notebook
+jupyter notebook notebook.ipynb
+```
 ---
-
-### India’s Match Trends
-![India Trends](images/10_india_trends.png)  
-**Insight:** India frequently sits **above tournament averages** — outperforming peers in both runs and efficiency.
-
----
-
-### Runs vs Runrate
-![Runs vs Runrate](images/11_runs_vs_runrate.png)  
-**Insight:** Positive correlation: **higher runrates → higher totals**; India excels in balancing strike rate with partnerships.
-
----
-
-### Top Individual Scores
-![Top Scores](images/12_top_scores.png)  
-**Insight:** India & South Africa dominate the list — star players carry momentum with match-winning knocks.
-
----
-
-### Results by Stadium
-![Results by Stadium](images/13_results_by_Stadium.png)  
-**Insight:** India shows adaptability across venues — not reliant on home advantage.
-
----
-
-### Winning Teams Distribution
-![Winning Teams](images/14_winning_teams_distribution.png)  
-**Insight:** India dominates the winners circle — **tournament’s most consistent and clutch team**.
-
----
-
-## 🚀 Key Takeaways for India
-- India dominated both **batting first and chasing** scenarios.  
-- Adaptability across toss decisions and venues gave a clear edge.  
-- **Boundary hitting + controlled wickets** = India’s winning formula.  
-- Extras control and run-rate acceleration remain critical insights for strategy.  
-
----
-## Acknowledgements
-- Kaggle
----
-
- ## 👤 Author
-- Syed Abdul Waheed
-- Data Science Enthusiast | Python Developer | Automation Explorer
-- 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
-- 🐙 GitHub: waheed24-03
---- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
