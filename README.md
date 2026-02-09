@@ -115,14 +115,28 @@ pip install pandas matplotlib seaborn
 jupyter notebook notebook.ipynb
 ```
 ---
-👤 Author
-<div align="left"> <img src="https://www.google.com/search?q=https://github.com/Syed-Waheed.png" width="100" align="left" style="margin-right: 20px; border-radius: 50%;" alt="Syed Abdul Waheed" />
+## 👤 Author
 
-Syed Abdul Waheed Data Science Enthusiast | Python Developer | Automation Explorer
+<div align="left">
+  <img src="https://github.com/Syed-Waheed.png" width="100" align="left" style="margin-right: 20px; border-radius: 50%;" alt="Syed Abdul Waheed" />
 
-Passionate about telling stories with data and building intelligent systems.
+  <strong>Syed Abdul Waheed</strong><br/>
+  <em>Data Science Enthusiast | Python Developer | Automation Explorer</em>
 
-<br />
+  Passionate about telling stories with data and building intelligent systems.
 
-<a href="https://www.linkedin.com/in/syed-abdul-waheed/"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin" alt="LinkedIn" /> </a> <a href="https://www.google.com/search?q=https://github.com/Syed-Waheed"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-Follow-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" alt="GitHub" /> </a> </div> <br clear="left"/>
+  <br /><br />
+
+  <a href="https://www.linkedin.com/in/syed-abdul-waheed/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+
+  <a href="https://github.com/Syed-Waheed">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" />
+  </a>
+</div>
+
+<br clear="left"/>
+
+
 
