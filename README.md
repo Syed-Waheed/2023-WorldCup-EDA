@@ -136,9 +136,10 @@ jupyter notebook notebook.ipynb
   </a>
 </div>
 
-<br clear="left"/>
+
 
 ---
+
 
 
 
