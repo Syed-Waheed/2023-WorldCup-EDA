@@ -1,5 +1,4 @@
 
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=ICC%20World%20Cup%202023&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Exploratory%20Data%20Analysis%20•%20Sports%20Analytics%20•%20Team%20India&descAlignY=55&descAlign=50" alt="World Cup EDA Header" />
 
   <br />
